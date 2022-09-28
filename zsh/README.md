@@ -14,11 +14,10 @@
 - Monospace Nerd Font
 
   - For example, **MesloLGS NF**
-  - Nerd Fonts can be installed by running **install-nerd-fonts.sh** in the terminal
+  - Nerd Fonts can be installed by running **install-nerd-fonts.sh**
     <br><br>
 
-Install dependencies:
-can be installed on Ubuntu with the following:
+Dependencies can be installed on Ubuntu with the following:
 
 ```bash
 sudo apt install zsh fasd autojump zsh-autosuggestions zsh-syntax-highlighting
