@@ -14,7 +14,7 @@
 - Monospace Nerd Font
 
   - For example, **MesloLGS NF**
-  - Nerf Fonts can be installed by running **install-nerd-fonts.sh** in the terminal
+  - Nerd Fonts can be installed by running **install-nerd-fonts.sh** in the terminal
     <br><br>
 
 Install dependencies:
