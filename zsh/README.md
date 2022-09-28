@@ -9,6 +9,7 @@
   - fasd
   - zsh-autosuggestions
   - zsh-syntax-highlighting
+  - fontconfig
     <br><br>
 
 - Monospace Nerd Font
@@ -20,7 +21,7 @@
 Dependencies can be installed on Ubuntu with the following:
 
 ```bash
-sudo apt install zsh fasd autojump zsh-autosuggestions zsh-syntax-highlighting
+sudo apt install zsh fasd autojump zsh-autosuggestions zsh-syntax-highlighting fontconfig
 ./install-nerd-fonts.sh
 ```
 
