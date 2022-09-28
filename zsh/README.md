@@ -21,7 +21,7 @@ Dependencies can be installed on Ubuntu with the following:
 
 ```bash
 sudo apt install zsh fasd autojump zsh-autosuggestions zsh-syntax-highlighting
-./install-nerd-fonts
+./install-nerd-fonts.sh
 ```
 
 ## Configuration
