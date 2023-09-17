@@ -16,7 +16,8 @@ export CM_DIR="~/.config/clipmenu"
 
 export EDITOR=vim
 
-PATH=$PATH:/usr/NX/bin:$HOME/Scripts:$HOME/.cargo/bin:$HOME/.local/bin:/usr/include
+PATH=$PATH:/usr/NX/bin:$HOME/Scripts:$HOME/.cargo/bin:$HOME/.local/bin:/usr/include:/usr/local/go/bin:/home/darryl/go/bin:$HOME/.local/share/yabridge
 export PATH
 
 
+. "$HOME/.cargo/env"
