@@ -154,8 +154,4 @@ PROMPT='%K{blue} %n@%m %k%K{#333333}%F{blue}%f %(5~|%-2~/…/%3~|%4~) %k%F{#3
 #[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 PATH="/home/darryl/perl5/bin${PATH:+:${PATH}}"; export PATH;
-PERL5LIB="/home/darryl/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
-PERL_LOCAL_LIB_ROOT="/home/darryl/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
-PERL_MB_OPT="--install_base \"/home/darryl/perl5\""; export PERL_MB_OPT;
-PERL_MM_OPT="INSTALL_BASE=/home/darryl/perl5"; export PERL_MM_OPT;
 fpath+=${ZDOTDIR:-~}/.zsh_functions
