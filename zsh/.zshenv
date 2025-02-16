@@ -2,8 +2,8 @@ export CM_LAUNCHER="rofi"
 export CM_SELECTIONS="clipboard"
 export CM_DEBUG=0
 export CM_OUTPUT_CLIP=1
-export CM_MAX_CLIPS=1000
-export CM_HISTLENGTH=1000
+export CM_MAX_CLIPS=10000
+export CM_HISTLENGTH=10000
 export CM_IGNORE_WINDOW=""
 export CM_DIR="~/.config/clipmenu"
 
@@ -18,6 +18,5 @@ export EDITOR=vim
 
 PATH=$PATH:/usr/NX/bin:$HOME/Scripts:$HOME/.cargo/bin:$HOME/.local/bin:/usr/include:/usr/local/go/bin:/home/darryl/go/bin:$HOME/.local/share/yabridge
 export PATH
-
 
 . "$HOME/.cargo/env"

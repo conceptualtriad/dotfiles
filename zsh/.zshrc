@@ -121,7 +121,7 @@ set hidden
 # Initiate fasd fuzzy search
 eval "$(fasd --init auto)"
 
-source /usr/share/autojump/autojump.sh
+# source /usr/bin/autojump
 source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh 2>/dev/null
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#777777'
 #source /usr/share/zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh 2>/dev/null
@@ -139,14 +139,16 @@ zstyle ':vcs_info:*' check-for-changes true
 zstyle ':vcs_info:*' formats ' %b %u %c'
 
 # Set up the prompt (with git branch name)
-PROMPT='%K{blue} %n@%m %k%K{#333333}%F{blue}%f %(5~|%-2~/…/%3~|%4~) %k%F{#333333}%K{#555555}%f%k%K{#555555} ${vcs_info_msg_0_} %k%F{#555555}%f$prompt_newline%F{#F1E9E5}⮞⮞⮞%f '
+# PROMPT='%K{blue} %n@%m %k%K{#333333}%F{blue}%f %(5~|%-2~/…/%3~|%4~) %k%F{#333333}%K{#555555}%f%k%K{#555555} ${vcs_info_msg_0_} %k%F{#555555}%f$prompt_newline%F{#F1E9E5}⮞⮞⮞%f '
+
+PROMPT='%F{blue}◖%f%K{blue}%n@%m %k%K{#333333}%F{blue}◗%f %(5~|%-2~/…/%3~|%4~) %k%F{#333333}%K{#555555}◗%f%k%K{#555555} ${vcs_info_msg_0_} %k%F{#555555}◗%f$prompt_newline%F{#F1E9E5}☢☢☢ '
 
 # just testing variables
 # myVar=$(ls | head -n 1)
 # echo $myVar
 
 # some cool unicode characters
-# ꧂ ↪ ⎉ ☣ ➯ ⮞ 𝄞 𝄢
+# ꧂ ↪ ⎉ ☣ ➯ ⮞ 𝄞 𝄢 ◖ ◗ ⁍
 
 #source ~/Programs/powerlevel10k/powerlevel10k.zsh-theme
 
