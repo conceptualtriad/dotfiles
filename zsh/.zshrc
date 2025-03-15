@@ -141,14 +141,14 @@ zstyle ':vcs_info:*' formats ' %b %u %c'
 # Set up the prompt (with git branch name)
 # PROMPT='%K{blue} %n@%m %k%K{#333333}%F{blue}%f %(5~|%-2~/…/%3~|%4~) %k%F{#333333}%K{#555555}%f%k%K{#555555} ${vcs_info_msg_0_} %k%F{#555555}%f$prompt_newline%F{#F1E9E5}⮞⮞⮞%f '
 
-PROMPT='%F{blue}◖%f%K{blue}%n@%m %k%K{#333333}%F{blue}◗%f %(5~|%-2~/…/%3~|%4~) %k%F{#333333}%K{#555555}◗%f%k%K{#555555} ${vcs_info_msg_0_} %k%F{#555555}◗%f$prompt_newline%F{#F1E9E5}☢☢☢ '
+PROMPT='%F{blue}%f%K{blue}%n@%m %k%K{#333333}%F{blue}%f %(5~|%-2~/…/%3~|%4~) %k%F{#333333}%K{#555555}%f%k%K{#555555} ${vcs_info_msg_0_} %k%F{#555555}%f$prompt_newline%F{#F1E9E5}󱞪 '
 
 # just testing variables
 # myVar=$(ls | head -n 1)
 # echo $myVar
 
 # some cool unicode characters
-# ꧂ ↪ ⎉ ☣ ➯ ⮞ 𝄞 𝄢 ◖ ◗ ⁍
+# ꧂ ↪ ⎉ ☣ ➯ ⮞ 𝄞 𝄢   ⁍ 󱞩 󱞪
 
 #source ~/Programs/powerlevel10k/powerlevel10k.zsh-theme
 
